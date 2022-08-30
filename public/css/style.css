@@ -67,3 +67,31 @@ body{
     }
     
 }
+@media(min-width:1200px){
+    .main-header-top-bar,
+    .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    
+    }
+    .main-header-top-bar{
+        align-items: center;
+    }
+    .main-navbar{
+        margin-top: 40px;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+    }
+    .main-navbar a{
+        font-size: 19px;
+    }
+    .copy-header{
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .logo{
+        width: 250;
+    }
+}
